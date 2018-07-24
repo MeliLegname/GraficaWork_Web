@@ -2,6 +2,7 @@
 	--grisTopo: #262626;
 	--naranja: rgb(255, 141, 48);
 	--blanco: #ffffff;
+	--grisClaro: #b7b7b7; 
 
 }
 
@@ -142,4 +143,71 @@ max-width: 15%;
 
 
 
+}
+
+.seccion-servicios{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+
+.seccion-servicios-in{
+flex-grow: 1;
+flex-wrap: wrap;
+flex-direction: column;
+
+
+
+padding: auto;
+
+}
+
+
+.in-der{
+text-align: left;
+background-color: var(--grisClaro);
+
+display: block;
+display: left;
+
+
+
+
+}
+
+
+
+.in-der img{
+
+	display: block;
+	float: left;
+
+
+}
+
+.in-izq{
+
+
+
+}
+
+.in-izq img{
+	float: right;
+	text-align: left;
+	
+
+}
+
+.in-der_info{
+	background-color:red;
+	width: 50%;
+	height: 350px;
+	align-content: center;
+	
+	
+	float:right;
 }
