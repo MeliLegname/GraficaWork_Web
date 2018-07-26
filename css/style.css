@@ -145,6 +145,42 @@ max-width: 15%;
 
 }
 
+/* * * * * * * * * * * * * * * *-* *Seccion servicios*-* * * * * * * * * * * * * * * * */
+
+
+
+/*Parte sprite*/
+
+@keyframes super{
+	to{
+		background-position-x: -633px;
+	}
+}
+.sprite1{
+	width: 450px;
+	height: 292px;
+	
+	background-image: url("../images/steps1.png");
+	
+	animation-name: super;
+	animation-duration: 01s;
+	/* Cantidad de steps = Cantidad de fotogramas
+		Mínimo es 10fps
+	*/
+	animation-timing-function: steps(10);
+	animation-iteration-count: 1;
+	animation-duration: alternate;
+	width: 50%;
+	
+	/* animation-iteration-count: infinite; */
+	
+	
+
+	
+}
+
+
+/*Parte escrita*/
 .seccion-servicios{
 
 display: flex;
