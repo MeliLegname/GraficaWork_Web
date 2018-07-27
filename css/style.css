@@ -7,8 +7,8 @@
 }
 
 *{
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
 	box-sizing: border-box;
 
 }
@@ -157,22 +157,18 @@ max-width: 15%;
 	}
 }
 .sprite1{
-	width: 450px;
+
+	max-width: 350px;
 	height: 292px;
 	
 	background-image: url("../images/steps1.png");
 	
 	animation-name: super;
 	animation-duration: 01s;
-	/* Cantidad de steps = Cantidad de fotogramas
-		Mínimo es 10fps
-	*/
 	animation-timing-function: steps(10);
-	animation-iteration-count: 1;
-	animation-duration: alternate;
-	width: 50%;
+	animation-iteration-count: infinite;
 	
-	/* animation-iteration-count: infinite; */
+
 	
 	
 
@@ -207,43 +203,21 @@ padding: auto;
 text-align: left;
 background-color: var(--grisClaro);
 
-display: block;
-display: left;
+
+
+} 
 
 
 
 
-}
-
-
-
-.in-der img{
-
-	display: block;
-	float: left;
-
-
-}
-
-.in-izq{
-
-
-
-}
-
-.in-izq img{
-	float: right;
-	text-align: left;
-	
-
-}
 
 .in-der_info{
 	background-color:red;
 	width: 50%;
-	height: 350px;
+	
 	align-content: center;
 	
 	
 	float:right;
 }
+
