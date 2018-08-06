@@ -221,3 +221,25 @@ background-color: var(--grisClaro);
 	float:right;
 }
 
+/* * * * * * * * * * * * * * * *-* *Seccion equipo*-* * * * * * * * * * * * * * * * */
+.equipo-contactar{
+
+	display: flex;
+	/*background-color: red;*/
+}
+
+.equipo-ind{
+
+	background-color: blue;
+	margin: 10px 10px;
+	flex-wrap: wrap;
+	
+}
+/* * * * * * * * * * * * * * * *-* *Seccion consulta*-* * * * * * * * * * * * * * * * */
+
+.seccion-consultas{
+
+	display: flex;
+	flex-wrap: wrap;
+
+}
